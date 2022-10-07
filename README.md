@@ -1,4 +1,4 @@
-# journal
+# OJS style guasML
 Our OJS Journal
 Tips and basic blue stylesheet 
 OJS version: 3.3.0.13
