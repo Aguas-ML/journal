@@ -31,12 +31,7 @@ element.style {
 .pkp_structure_footer_wrapper {
     border-bottom: 1.43rem solid #122794;
 }
-/*
-## vermelho #cb0101
-## cor do fundo
- .navigationPrimary ul {
-#    background: #122794;
-#}*/
+/* fundo do cabeçalho */
 @media (min-width: 992px)
 #navigationPrimary ul {
     background: #2e15f5;
