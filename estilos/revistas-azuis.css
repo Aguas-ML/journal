@@ -2,7 +2,6 @@
 /* theme manuscript */
 /*
 ver: revistas-azuis
-
 */
 /* tamanho do logo */
 .pkp_site_name .is_ing img {
@@ -36,11 +35,16 @@ element.style {
 #navigationPrimary ul {
     background: #2e15f5;
 }
-/* tamanho do h4 */
+/* fonte index h3 */
+.pkp_page_index .journals h3 {
+  font-size: 1.32rem;
+
+}
+/* fonte do titulo do artigo h4 */
 .obj_article_summary>.title {
     font-size: 1.3rem;
 }
-/* tamanho do titulo da revista atual */
+/* fonte do titulo da revista atual */
 .pkp_page_index .current_issue .current_issue_title {
     font-size: 1.343rem;
 }
