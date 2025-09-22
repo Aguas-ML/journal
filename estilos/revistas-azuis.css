@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* stylesheet to OJS 3.3.0.13 */
 /* theme manuscript */
 /*
@@ -56,3 +57,62 @@ element.style {
   color:#ffffff;
   background: #07103e;
 }
+=======
+/* stylesheet to OJS 3.3.0.13 */
+/* theme manuscript */
+/*
+ver: revistas-azuis
+*/
+/* tamanho do logo */
+.pkp_site_name .is_ing img {
+    max-height:150px;
+}
+/* justificando texto do resumo */
+.obj_article_details .abstract, .obj_article_details .itm > :last-child {
+    text-align: justify;
+}
+/* aumentando fontes do site */
+body, p, h1, h2, h3, h4, li {
+  font-family:Helvetica;
+  color:#444;
+  font-size:1.05em;
+}
+/* cor do cabeçalho */
+.pkp_structure_head {
+    background-color: #122794;
+}
+.pkp_site_name_wrapper {
+    background: #122794;
+}
+## cor do rodapé */
+element.style {
+}
+.pkp_structure_footer_wrapper {
+    border-bottom: 1.43rem solid #122794;
+}
+/* fundo do cabeçalho */
+@media (min-width: 992px)
+#navigationPrimary ul {
+    background: #2e15f5;
+}
+/* fonte index h3 */
+.pkp_page_index .journals h3 {
+  font-size: 1.32rem;
+
+}
+/* fonte do titulo do artigo h4 */
+.obj_article_summary>.title {
+    font-size: 1.3rem;
+}
+/* fonte do titulo da revista atual */
+.pkp_page_index .current_issue .current_issue_title {
+    font-size: 1.343rem;
+}
+/* fundo do dropdown */
+element.style {
+}
+#navigationPrimary a:hover, #navigationPrimary a:focus {
+  color:#ffffff;
+  background: #07103e;
+}
+>>>>>>> 6bd7790c4b2dbe5cee75f221fd707eff1cca5092
